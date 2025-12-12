@@ -2,35 +2,35 @@
   const steps = [
     {
       num: "01",
-      title: "Design yours",
-      desc: "Take your pick with layouts and customizations that reflect your style and needs.",
-      img: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop"
+      title: "Capture your space",
+      desc: "Take photos of your room with your phone. Our AI analyzes the space and prepares it for transformation.",
+      img: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2070&auto=format&fit=crop"
     },
     {
       num: "02",
-      title: "Sign off",
-      desc: "We visit your site to create a complete proposal for the work required to install Backyard.",
-      img: "https://images.unsplash.com/photo-1599619351208-3e6c839d6828?q=80&w=2072&auto=format&fit=crop"
+      title: "Visualize with AI",
+      desc: "Describe your dream renovation. Our AI generates realistic visualizations showing exactly how it will look.",
+      img: "https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?q=80&w=2070&auto=format&fit=crop"
     },
     {
       num: "03",
-      title: "Sit back",
-      desc: "We secure permitting, permits, manufacture your ADU, and prep your site. You get to relax.",
-      img: "https://images.unsplash.com/photo-1581094794329-cd8119608f84?q=80&w=2070&auto=format&fit=crop"
+      title: "Get matched",
+      desc: "Post your project and receive competitive bids from verified contractors in your area within 24 hours.",
+      img: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2076&auto=format&fit=crop"
     },
     {
       num: "04",
-      title: "Get your keys",
-      desc: "After as few as eight weeks on site, we'll deliver Backyard to your life. Your life is now ready for use.",
-      img: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1973&auto=format&fit=crop"
+      title: "Build your dream",
+      desc: "Choose your contractor, communicate directly in-app, and watch your vision become reality.",
+      img: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=2053&auto=format&fit=crop"
     }
   ];
 </script>
 
-<section class="bg-white py-24 px-6">
+<section class="bg-white py-24 px-6" id="how-it-works">
   <div class="max-w-[1200px] mx-auto">
     <h2 class="text-[40px] leading-tight font-light text-gray-900 mb-16 max-w-[600px]">
-      Get Backyard in four simple steps. And as few as eight weeks on site.
+      From idea to reality in four simple steps. Start your renovation journey today.
     </h2>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
@@ -50,16 +50,16 @@
 
     <div class="bg-[#f9f9f7] rounded-2xl p-12 flex flex-col md:flex-row items-center justify-between gap-8">
       <div>
-        <h3 class="text-2xl font-light mb-2">Want the details?</h3>
-        <p class="text-gray-500 text-sm">Learn more about our fast, easy installation process.</p>
+        <h3 class="text-2xl font-light mb-2">Ready to get started?</h3>
+        <p class="text-gray-500 text-sm">Join the waitlist and be first to experience BuildIt AI.</p>
       </div>
       <div class="flex gap-4">
         <button class="px-6 py-3 bg-white border border-gray-200 hover:bg-gray-50 rounded-lg text-sm font-medium transition-colors">
-          How it works
+          Learn more
         </button>
-        <button class="px-6 py-3 bg-[#007aff] hover:bg-[#0062cc] text-white rounded-lg text-sm font-medium transition-colors flex items-center gap-2">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-          Download brochure
+        <button class="px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white rounded-lg text-sm font-medium transition-colors flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><line x1="19" x2="19" y1="8" y2="14"/><line x1="22" x2="16" y1="11" y2="11"/></svg>
+          Join waitlist
         </button>
       </div>
     </div>
